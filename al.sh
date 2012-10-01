@@ -1,4 +1,5 @@
 #!/bin/bash
+killall pianobar
 t=$[ ( $RANDOM % 300 )  + 1 ]
 sleep $t
 find . -name '*.wav' -o -name '*.ogg' -o -name '*.mp3' | sort -R |tail -1 | xargs -I{} mplayer {} >/dev/null 2>&1 & disown $!
