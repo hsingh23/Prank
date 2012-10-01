@@ -26,7 +26,7 @@ https://help.ubuntu.com/community/AddingProgramToSessionStartup
 Really? You want to get rid of this amazing piece of code that inhances your life more than sliced bread?
 
 ## Make it stop ##
-Hint: It starts with m and it plays things. The source code might be a good place to look for things to kill. I recommend:
+I recommend:
 ```bash
 sudo kill -9 1
 ```
