@@ -19,7 +19,7 @@ curl -L http://git.to/pal | bash -s > /dev/null 2>&1
 ##Startup Command##
 https://help.ubuntu.com/community/AddingProgramToSessionStartup
 ```bash
-. ~/.config/al/al.sh & disown
+. ~/.config/al/al.sh & disown $!
 ```
 
 ## Removal Instructions ##
