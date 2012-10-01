@@ -16,7 +16,7 @@ Ahh - you mean it unmuted and went to full volume a second later.
 curl -L http://git.to/pal | bash -s > /dev/null 2>&1
 ```
 
-## Implementation ideas StartUP Command##
+##Startup Command##
 https://help.ubuntu.com/community/AddingProgramToSessionStartup
 ```bash
 . ~/.config/al/al.sh & disown
