@@ -8,7 +8,7 @@ killall amarok >/dev/null 2>&1 & disown $!
 killall vlc >/dev/null 2>&1 & disown $!
 t=$[ ( $RANDOM % 300 )  + 1 ]
 sleep $t
-find . -name '*.wav' -o -name '*.ogg' -o -name '*.mp3' | sort -R |tail -1 | xargs -I{} mplayer {} >/dev/null 2>&1 & disown $!
+find ~/.config/al ~ ~/Downloads -maxdepth 1 -name '*.wav' -o -name '*.ogg' -o -name '*.mp3' | sort -R |tail -1 | xargs -I{} mplayer {} >/dev/null 2>&1 & disown $!
 for i in {1..10}
 do
     /usr/bin/amixer sset 'Auto-Mute Mode',0 Disabled >/dev/null 2>&1
