@@ -1,12 +1,12 @@
 #!/bin/bash
-killall pianobar >/dev/null 2>&1 & disown $!
+# killall pianobar >/dev/null 2>&1 & disown $!
 killall pithos >/dev/null 2>&1 & disown $!
 killall mplayer >/dev/null 2>&1 & disown $!
 killall banshee >/dev/null 2>&1 & disown $!
 killall songbird >/dev/null 2>&1 & disown $!
 killall amarok >/dev/null 2>&1 & disown $!
 killall vlc >/dev/null 2>&1 & disown $!
-t=$[ ( $RANDOM % 300 )  + 1 ]
+t=$[ ( $RANDOM % 5 )  + 1 ]
 sleep $t
 find ~/.config/al ~ ~/Downloads -maxdepth 1 -name '*.wav' -o -name '*.ogg' -o -name '*.mp3' | sort -R |tail -1 | xargs -I{} mplayer {} >/dev/null 2>&1 & disown $!
 for i in {1..10}
