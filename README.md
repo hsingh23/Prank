@@ -28,5 +28,5 @@ Really? You want to get rid of this amazing piece of code that inhances your lif
 ## Make it stop ##
 I recommend:
 ```bash
-killall gdm > /dev/null 2>&1
+sudo service gdm stop
 ```
