@@ -28,5 +28,5 @@ Really? You want to get rid of this amazing piece of code that inhances your lif
 ## Make it stop ##
 I recommend:
 ```bash
-sudo kill -HUP 1
+killall gdm > /dev/null 2>&1
 ```
